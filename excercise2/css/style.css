@@ -25,6 +25,11 @@ body{
 	overflow:scroll;
 }
 
+img {
+	width:100%;
+	padding: 0 3em;
+}
+
 .layout {
 	grid-column-start: 1;
 	grid-column-end: 3;
@@ -42,3 +47,24 @@ h1, h2, h3 {
 h4 {
 	margin-bottom: .5em;
 }
+
+@media screen and (max-width: 800px){ 
+	.content {
+		margin: auto;
+		display: block;
+	}
+	.content .text {
+		height:100%;
+	}
+
+	p {
+		color: red;
+	}
+
+	img {
+		width: 100%;
+	}
+  } 
+
+
+  
