@@ -1,7 +1,21 @@
+body {
+	padding: 3em;
+	background-color: lightgray;
+}
+
+
 p {
 	color: blue;
-	background-color: yellow;
+}
+
+h2 {
+	font-size: 60px;
+	color: blue;
 }
 h3 {
-	color: red;
+
+}
+
+a {
+	color: blue;
 }
