@@ -4,6 +4,10 @@
 	box-sizing: border-box;
 }
 
+a, ol li {
+	color:red;
+}
+
 body{
 	font-size: 18px;
 	font-family: 'DM Sans', sans-serif;
