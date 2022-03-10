@@ -1,3 +1,8 @@
+@font-face {
+	font-family: "Experiment";
+	src: url("/fonts/Test.woff2") format("woff2");
+}
+
 body {
 	padding: 3em;
 	background-color: lightgray;
@@ -22,4 +27,5 @@ a {
 
 .experimentalfont {
 	color:red;
+	font-family: "Experiment";
 }
