@@ -19,3 +19,36 @@ h3 {
 a {
 	color: blue;
 }
+
+    @font-face {
+	    font-family: "Experiment";
+	    src: url("fonts/NewFont-Regular.woff2") format("woff2");
+    }
+
+    @font-face {
+      font-family: "Variable";
+      src: url("fonts/NewFontVF.woff2") format("woff2");
+    }
+
+    .experimentalfont {
+		font-size:30px;
+	    color:red;
+	    font-family: "Experiment";
+      }
+
+    .variable {
+	font-size:30px;
+      color: green;
+      font-family: "Variable";
+	  font-stretch: 0%;
+	  font-variation-settings: 'wdth' 0;
+    }
+
+	.variable:hover {
+		  font-stretch: 100%;
+		  font-variation-settings: 'wdth' 100;
+		}
+	
+
+
+
