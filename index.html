@@ -7,15 +7,31 @@
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <!-- this is where my meta-info lives, but won’t show up on the page itself-->
   <style>
+
     @font-face {
 	    font-family: "Experiment";
 	    src: url("css/fonts/NewFont-Regular.woff2") format("woff2");
+    }
+
+    @font-face {
+      font-family: "Variable";
+      src: url("css/fonts/NewFontVF.woff2") format("woff2");
     }
 
     .experimentalfont {
 	    color:red;
 	    font-family: "Experiment";
       }
+
+    .variable {
+      color: green;
+      font-family: "Variable";
+    }
+
+    @keyframes :hover  {
+      from {transform: width(0);}
+      to {  transform: width(100);}
+    }
   </style>
 </head>
 <body>
@@ -36,6 +52,9 @@
         <li><a href="assets/PrintMediaLayout.pdf">PDF of Media Print Query Layout (#1)</a></li>
         <li>Experimental font:</li>
         <div class="experimentalfont">hello this is a test of the font that will be only kind of legible</div>
+
+        <li>Experimental VF:</li>
+        <div class="variable">hello this is a test of the font that will be only kind of legible</div>
       </ul> 
     </div>
    
