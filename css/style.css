@@ -1,20 +1,35 @@
 body {
 	padding: 3em;
-	background-color: lightgray;
+	background-color: whitesmoke;
+}
+
+.columns {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap:10px;
+}
+
+.type {
+	border: solid black 1px;
+	padding:1em;
 }
 
 
 p {
-	color: blue;
+	color: black;
+}
+
+h1 {
+	display: flex;
+	font-size: 18px;
+	font-weight: 100;
 }
 
 h2 {
-	font-size: 60px;
-	color: blue;
+	font-size: 48px;
+	font-weight: 200;
 }
-h3 {
 
-}
 
 a {
 	color: blue;
@@ -31,14 +46,14 @@ a {
     }
 
     .experimentalfont {
-		font-size:30px;
-	    color:red;
+		font-size:24px;
+	    color:black;
 	    font-family: "Experiment";
       }
 
     .variable {
-	font-size:30px;
-      color: green;
+	font-size:24px;
+      color: black;
       font-family: "Variable";
 	  font-stretch: 0%;
 	  font-variation-settings: 'wdth' 0;
@@ -48,6 +63,7 @@ a {
 		  font-stretch: 100%;
 		  font-variation-settings: 'wdth' 100;
 		}
+
 	
 
 
