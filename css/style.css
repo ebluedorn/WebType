@@ -16,9 +16,6 @@ body {
 }
 
 
-p {
-	color: black;
-}
 
 h1 {
 	display: flex;
@@ -34,6 +31,18 @@ h2 {
 
 a {
 	color: blue;
+}
+
+.darkmode{
+	background: black;
+	color: white;
+	font-variation-settings: 'wdth' 150;
+}
+
+.darkmode .experimentalfont, .darkmode .variable, .darkmode .type{
+	color:white;
+	border-color: white;
+
 }
 
     @font-face {
