@@ -1,3 +1,7 @@
+:root{
+	--wdth: 0;
+}
+
 body {
 	padding-left: 3em;
 	padding-right:3em;
@@ -55,6 +59,8 @@ a {
       src: url("fonts/NewFontVF.woff2") format("woff2");
     }
 
+	
+
     .experimentalfont {
 		font-size:24px;
 	    color:black;
@@ -74,7 +80,14 @@ a {
 		  font-variation-settings: 'wdth' 100;
 		}
 
-	
+
+	#bigletter {
+		font-family: "Variable";
+		font-variation-settings: 'wdth' var(--wdth);
+	}
+
+	/* SLider Styles */
+
 
 
 

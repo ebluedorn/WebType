@@ -1,0 +1,54 @@
+
+@font-face {
+	font-family: 'New';
+	src: url('fonts/NewFontVF.woff2') format('woff2-variations'),
+	url('fonts/NewFontVF.ttf') format('truetype-variations');
+  }
+  
+  :root{
+	  --wdth: 80;
+	  --color: blue;
+  }
+  body{
+	  font-family: 'New', sans-serif;
+	  font-style: normal;
+	  font-size: 30px;
+	  line-height: 1.5;
+	  margin-bottom: 4rem;
+	  color:  var(--color);
+  }
+  
+  .new, .new *{
+	  font-variation-settings: 'wdth' var(--wdth),;
+  }
+
+  
+  #content p{ 
+	  transition: font-variation-settings 400ms ease-in-out;
+  }
+  
+  /*SLIDER STYLES*/
+  
+  #sliders ul{
+	  margin: auto;
+  }
+  #sliders li{
+	  display: flex;
+	  justify-content: center;
+  }
+  
+  .range-name, .min, .max{
+	  width: 100px;
+  }
+  .min{
+	  text-align: right;
+  }
+  .range-name::after{
+	  content: ': ';
+  }
+  
+  input.axis-range{
+	  width: 580px;
+	  margin: 0 20px;
+  }
+  
