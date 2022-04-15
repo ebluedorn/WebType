@@ -10,8 +10,8 @@
 }
 
 @font-face {
-	font-family: "confetti";
 	src: url("fonts/confettiVF.woff2") format("woff2");
+	font-family: "confetti";
 }
 
 #bigletter {
@@ -20,9 +20,11 @@
 }
 
 body {
-	padding: 1.5em;
+	padding-top: 1.5em;
+	padding-left:10%;
+	padding-right:10%;
 	font-family: "confetti";
-	font-size: calc(60vw / 20);
+	font-size: calc(60vw / 23);
 	text-align: left;
 	font-variation-settings: 'SERF' 50;
 	color:black;
@@ -48,6 +50,10 @@ header {
 	margin-bottom:2em;
 }
 
+.time {
+	margin-bottom:4em;
+}
+
 .time1 p{
 	font-variation-settings: 'SERF' 0;
 }
@@ -57,8 +63,21 @@ header {
 }
 
 .largetext {
-	font-size: 150px;
+	font-size: calc(60vw / 16);
+	margin-bottom: 1em;
+	border-top: solid black 2px;
+	padding-top:15px;
 }
+
+.caps {
+	display: flex;;
+}
+
+.caps span {
+	padding-right:10px;
+}
+
+
 
 
 /*SLIDER STYLES*/
@@ -67,20 +86,22 @@ header {
 .range-name, .min, .max{
 	width: 100px;
 }
+
 .min{
 	text-align: right;
 }
-.range-name::after{
+
+/* .range-name::after{
 	content: ': ';
-}
+} */
 
 input.axis-range{
 
 	-webkit-appearance: none;  /* Override default CSS styles */
 	appearance: none;
-	width: 100%; /* Full-width */
+	width: 70%; /* Full-width */
 	height: 15px; /* Specified height */
-	background: red; /* Grey background */
+	background: lightgray; /* Grey background */
 	outline: none; /* Remove outline */
 	opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
 	-webkit-transition: .2s; /* 0.2 seconds transition on hover */
@@ -90,17 +111,39 @@ input.axis-range{
 input.axis-range::-webkit-slider-thumb {
 	-webkit-appearance: none; /* Override default look */
 	appearance: none;
-	width: 25px; /* Set a specific slider handle width */
-	height: 25px; /* Slider handle height */
-	background: pink; /* Green background */
+	width: 70px; /* Set a specific slider handle width */
+	height: 35px; /* Slider handle height */
+	background: #EB70A7; /* Green background */
 	cursor: pointer; /* Cursor on hover */
   }
 
-#scale {
-	display: flex;
-	
+
+
+.scale {
+	display:flex;
 }
 
+#serif {
+	text-align: right;
+}
+
+#sliders, #clockout, #reveal {
+	margin-bottom: 4em;
+}
+
+#partymode {
+	text-align: center;
+	font-size: calc(60vw / 8);
+	padding:1em;
+	border: solid black 3px;
+	margin-bottom: 1em;
+}
+
+footer {
+	display: flex;
+	justify-content: space-between;
+	vertical-align: baseline;
+}
 
 
 
