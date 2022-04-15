@@ -22,11 +22,11 @@
 body {
 	padding: 1.5em;
 	font-family: "confetti";
-	font-size: 32px;
-	text-align: center;
+	font-size: calc(60vw / 20);
+	text-align: left;
 	font-variation-settings: 'SERF' 50;
-	color:pink;
-	background-color: black;
+	color:black;
+	background-color: white;
 }
 
 
@@ -34,6 +34,26 @@ header {
 	margin-bottom:2em;
 	display:flex;
 	justify-content: space-between;
+}
+
+.nav {
+	display: flex;
+}
+
+.time1, .time2 {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	column-gap: 2em;
+	row-gap: 5em;
+	margin-bottom:2em;
+}
+
+.time1 p{
+	font-variation-settings: 'SERF' 0;
+}
+
+.nav #item {
+	margin-left:1em;
 }
 
 .largetext {
