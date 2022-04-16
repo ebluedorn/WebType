@@ -145,8 +145,53 @@ footer {
 	vertical-align: baseline;
 }
 
+#clockout .description {
+	font-size: calc(60vw / 16);
+}
+
+#clockout .directive {
+	font-size: calc(60vw / 5);
+	margin-top:1em;
+	margin-left: 20%;
+}
+
+#clockout img{
+	position: relative;
+	top: -1.7em;
+    right: -1.1em;
+    width: 50%;
+}
+
+#clockout {
+	margin-bottom:-5em;
+}
 
 
+/* dark mode function */
+
+button {
+	background-color: white; /* Green */
+	border: solid black 2px;
+	color: black;
+	padding: 32px 0;
+	text-align: center;
+	text-decoration: none;
+	display: block;
+	margin-right:auto;
+	margin-left:auto;
+	font-size: calc(60vw / 10);
+	width:100%;
+	font-family: "confetti";
+}
+
+.darkmode{
+	background: black;
+	color: #EB70A7;
+}
+
+.colorchange {
+	fill:red;
+}
 
 
 
