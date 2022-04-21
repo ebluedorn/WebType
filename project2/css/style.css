@@ -6,7 +6,7 @@
 }
 
 :root{
-	--SERF: 50;
+	--SERF: 0;
 }
 
 @font-face {
@@ -28,7 +28,8 @@ body {
 	text-align: left;
 	font-variation-settings: 'SERF' 50;
 	color:black;
-	background-color: white;
+	background-color: #f5f5f5;
+	padding-bottom:1.5em;
 }
 
 
@@ -70,7 +71,7 @@ header {
 }
 
 .caps {
-	display: flex;;
+	display: flex;
 }
 
 .caps span {
@@ -101,7 +102,7 @@ input.axis-range{
 	appearance: none;
 	width: 70%; /* Full-width */
 	height: 15px; /* Specified height */
-	background: lightgray; /* Grey background */
+	background: gray; /* Grey background */
 	outline: none; /* Remove outline */
 	opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
 	-webkit-transition: .2s; /* 0.2 seconds transition on hover */
@@ -113,7 +114,7 @@ input.axis-range::-webkit-slider-thumb {
 	appearance: none;
 	width: 70px; /* Set a specific slider handle width */
 	height: 35px; /* Slider handle height */
-	background: #EB70A7; /* Green background */
+	background: #fd91a3; /* Green background */
 	cursor: pointer; /* Cursor on hover */
   }
 
@@ -127,8 +128,14 @@ input.axis-range::-webkit-slider-thumb {
 	text-align: right;
 }
 
-#sliders, #clockout, #reveal {
+#sliders, #clockout {
 	margin-bottom: 4em;
+}
+
+#reveal {
+	margin-top: 1em;
+	margin-bottom:1em;
+	color: #f5f5f5;
 }
 
 #partymode {
@@ -143,6 +150,7 @@ footer {
 	display: flex;
 	justify-content: space-between;
 	vertical-align: baseline;
+	margin-bottom:3em;
 }
 
 #clockout .description {
@@ -186,11 +194,16 @@ button {
 
 .darkmode{
 	background: black;
-	color: #EB70A7;
+	color: #fd91a3;
+	font-variation-settings: 'SERF' 100;
+}
+
+.darkmode #reveal {
+	color: #fd91a3;
 }
 
 .colorchange {
-	fill:red;
+	z-index: -900;
 }
 
 
