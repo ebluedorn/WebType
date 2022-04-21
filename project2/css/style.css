@@ -210,5 +210,10 @@ button {
 
 @media screen and (max-width: 700px) {
 
+	.time1, .time2 {
+		display: block;
+	}
+
+	
   }
 
