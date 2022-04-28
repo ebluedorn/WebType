@@ -78,7 +78,29 @@ margin-top:-10%;
 	margin-bottom:10%;
 }
 
+#renaissance .descriptor {
+	width:100%;
+}
+	
+#renaissance .descriptor {
+		visibility:hidden;
+	}
 
+#renaissance:hover .descriptor {
+		visibility: visible;
+	}
+
+
+footer {
+font-size: 18px;
+margin-left:15%;
+margin-right:15%;
+margin-top: 5em;
+margin-bottom: 5em;
+display: block;
+		}
+	}
+	
 
 
 @media screen and (max-width: 700px) {
