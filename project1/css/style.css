@@ -73,6 +73,24 @@ margin-top:-10%;
 	margin-top:-15%;
 }
 
+#metaltype .descriptor{
+	position:relative;
+	background-color:black;
+	border: 1px solid white;
+	border-radius: 10px;
+	width:150px;
+	padding:10px;
+	text-align: center;
+	font-size: 18px;
+	visibility: hidden;
+
+}
+
+#metaltype:hover .descriptor {
+	visibility: visible;
+}
+
+
 #renaissance {
 	margin-top:20%;
 	margin-bottom:10%;
