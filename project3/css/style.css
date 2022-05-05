@@ -60,9 +60,6 @@ h2 {
   padding-top:10px;
 }
 
-#filterby {
-  margin-bottom:2em;
-}
 
 .categories h3 {
   border-radius:5px;
@@ -71,6 +68,27 @@ h2 {
   padding:5px;
   margin-right:10px;
   font-size: 14px;
+}
+
+#filterby {
+  margin-bottom:2em;
+  display: flex;
+  font-family: "romie";
+  padding-top:10px;
+}
+
+#filterby h3 {
+  border-radius:5px;
+  background-color: none;
+  border: solid 1px black;
+  padding:5px;
+  margin-right:10px;
+  font-size: 14px;
+}
+
+#filterby h3:hover {
+  background-color: #FFCDF4;
+  border: solid 1px #FF03C8;
 }
 
 
