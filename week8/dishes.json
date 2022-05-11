@@ -3,7 +3,8 @@
     "recipe": "Arugula Salad",
     "ingredients": "arugula, sesame seeds, lemon juice, olive oil",
     "prep": 15,
-    "cook": 0
+    "cook": 0,
+    "photo": "dice.png"
   },
   {
     "recipe": "Rice",

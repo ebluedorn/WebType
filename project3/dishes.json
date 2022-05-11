@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Recreating a Colourful Byredo Vogue Look",
+    "artist": "Isamaya French",
+    "prep": 15,
+    "cook": "https://www.youtube.com/embed/qOKUJTcJ3Gg",
+  },
+  {
+    "title": "Rice",
+    "artist": "rice, water",
+    "prep": 5,
+    "cook": 40
+  },
+  {
+    "title": "Ginger Chicken",
+    "artist": "ginger, garlic, chicken thighs, honey, mirin, sake, soysauce, salt, pepper",
+    "prep": 10,
+    "cook": 20
+  },
+  {
+    "title": "Miso Soup",
+    "artist": "dashi, tofu, green onions, seaweed, miso",
+    "prep": 10,
+    "cook": 10
+  }
+]

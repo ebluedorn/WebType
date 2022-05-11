@@ -1,0 +1,25 @@
+#ingredients {
+    font-size: 100px;
+}
+
+.cook {
+    color: red;
+}
+
+#items {
+
+}
+
+.card {
+    border: solid 1px black;
+    margin-bottom:1em;
+    padding: 10px
+}
+
+.name {
+    font-size:20px;
+}
+
+.test {
+    display: flex;
+}

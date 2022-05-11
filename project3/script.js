@@ -1,34 +1,39 @@
+// console log test 
+
+
 $(document).ready(function() {
-
-
-  // Your JavaScript goes here.
-
-
+	var a = 2;
+	console.log(a);
 });
 
-$(document).ready(function() {
+$(document).ready(function(){   
 
+
+	// console logging the data
+	let info;
+	$.getJSON("dishes.json")
+	  .done(function( data ) {
+		console.log(data);
   
+		for( let i = 0; i<data.length; i++){
+		  let item = data[i];
+  // can wrap item.recipe in an a href tag for url
+		  let element = `<div class="card">
+		  <div class="title">${item.title}:</div>
+		  <div class="cook"><iframe width="560" height="315" src="${item.cook}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
-	//standard sliders
-	$('.axis-range').on('input', function(){
+		  <div class="artist">${item.artist}</div>
 
-		let value = parseInt($(this).val()); //get slider input value
-		// console.log(value);
-
-		const slidertype = $(this).data('type'); //get slider axis
-
-		// console.log("--"+slidertype, value );
-
-		$('#bigletter').css("--"+slidertype, value);
-
-	});
-
-
-	// pop up styling
+		  </div>`
+  
+		  $('#items').append(element);
+		  console.log(i, item);
+		}
+  
+	  });
+  
+  }); 
 	
-
-});
 
 
 jQuery(document).ready(function($){
@@ -53,4 +58,7 @@ function openpopup(id) {
     event.preventDefault();
     	$("#"+id+"").addClass('is-visible');
 }
+
+
+
 
