@@ -1,26 +1,114 @@
 [
   {
+    "title": "Soft smokey eyes for any occasion with guest Gabrielle Caunesil",
+    "artist": "Ali Andreea",
+    "vibe": "Sexy",
+    "glam": "***",
+    "videoWrapper": "https://www.youtube.com/embed/SyyTdfbtNKM"
+  },
+  {
+    "title": "This is THE most requested makeup look I've created",
+    "artist": "Ali Andreea",
+    "vibe": "Daily",
+    "glam": "**",
+    "videoWrapper": "https://www.youtube.com/embed/7NxebHIFXds"
+  },
+  {
+    "title": "'NO MAKEUP' MAKEUP TUTORIAL",
+    "artist": "Ash K Holm",
+    "vibe": "Daily",
+    "glam": "**",
+    "videoWrapper": "https://www.youtube.com/embed/iI9OGda-m7U"
+  },
+  {
+    "title": "Makeup Masterclass | Emerald Green Glossy Eye Look with Flawless Skin",
+    "artist": "Isamaya French",
+    "vibe": "Arty",
+    "glam": "***",
+    "videoWrapper": "https://www.youtube.com/embed/W_rJFKd2ewg"
+  },
+  {
+    "title": "My Simple Everyday Makeup Tutorial",
+    "artist": "Isamaya French",
+    "vibe": "Daily",
+    "glam": "*",
+    "videoWrapper": "https://www.youtube.com/embed/jkMydtRGWRw"
+  },
+  {
+    "title": "Transformation Tutorial | Cher Glossy Taupe Eye Look",
+    "artist": "Isamaya French",
+    "vibe": "Arty",
+    "glam": "***",
+    "videoWrapper": "https://www.youtube.com/embed/Eonco7KEBL0"
+  },
+  {
     "title": "Recreating a Colourful Byredo Vogue Look",
     "artist": "Isamaya French",
-    "prep": 15,
-    "cook": "https://www.youtube.com/embed/qOKUJTcJ3Gg",
+    "vibe": "Arty",
+    "glam": "***",
+    "videoWrapper": "https://www.youtube.com/embed/qOKUJTcJ3Gg"
   },
   {
-    "title": "Rice",
-    "artist": "rice, water",
-    "prep": 5,
-    "cook": 40
+    "title": "Ethereal, Bronzed Skin & Graphic Liner With La Demi",
+    "artist": "Patrick Ta",
+    "vibe": "Arty",
+    "glam": "***",
+    "videoWrapper": "https://www.youtube.com/embed/Hg9XNFk1D9M"
   },
   {
-    "title": "Ginger Chicken",
-    "artist": "ginger, garlic, chicken thighs, honey, mirin, sake, soysauce, salt, pepper",
-    "prep": 10,
-    "cook": 20
+    "title": "Spring Makeup With Aimee Song",
+    "artist": "Patrick Ta",
+    "vibe": "Classic",
+    "glam": "***",
+    "videoWrapper": "https://www.youtube.com/embed/NY1lzZ3FSSU"
   },
   {
-    "title": "Miso Soup",
-    "artist": "dashi, tofu, green onions, seaweed, miso",
-    "prep": 10,
-    "cook": 10
-  }
+    "title": "Glowing Makeup For Spring/Summer",
+    "artist": "Patrick Ta",
+    "vibe": "Glowy",
+    "glam": "**",
+    "videoWrapper": "https://www.youtube.com/embed/XkQImzM-PLI"
+  },
+  {
+    "title": "90s Matte Bronze Makeup With Kelly Gale",
+    "artist": "Patrick Ta",
+    "vibe": "Matte",
+    "glam": "***",
+    "videoWrapper": "https://www.youtube.com/embed/6ODMAHgObW8"
+  },
+  {
+    "title": "Glowing Skin & Sultry Eyes With Shanina Shaik",
+    "artist": "Patrick Ta",
+    "vibe": "Sexy",
+    "glam": "***",
+    "videoWrapper": "https://www.youtube.com/embed/t7pNxlVAaO4"
+  },
+  {
+    "title": "MY SIGNATURE SUMMER MAKEUP!",
+    "artist": "Hindash",
+    "vibe": "Glowy",
+    "glam": "**",
+    "videoWrapper": "https://www.youtube.com/embed/NmKbxdwbKlE"
+  },
+  {
+    "title": "Full Face of Florassis",
+    "artist": "Hindash",
+    "vibe": "Arty",
+    "glam": "***",
+    "videoWrapper": "https://www.youtube.com/embed/cHuFXepmVI4"
+  },
+  {
+    "title": "FULL FACE USING ONLY CREAM PRODUCTS!",
+    "artist": "Hindash",
+    "vibe": "Glowy",
+    "glam": "**",
+    "videoWrapper": "https://www.youtube.com/embed/8OBWm-HP7Sg"
+  },
+  {
+  "title": "MY SIGNATURE GLOWY MAKEUP!",
+  "artist": "Hindash",
+  "vibe": "Glowy",
+  "glam": "**",
+  "videoWrapper": "https://www.youtube.com/embed/EguruJW1tK4"
+  } 
 ]

@@ -19,11 +19,15 @@ $(document).ready(function(){
 		  let item = data[i];
   // can wrap item.recipe in an a href tag for url
 		  let element = `<div class="card">
-		  <div class="title">${item.title}:</div>
-		  <div class="cook"><iframe width="560" height="315" src="${item.cook}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
-		  <div class="artist">${item.artist}</div>
-
+		  <div class="title">${item.title}</div>
+		  <div class="videoWrapper ratio-16-9"><iframe width="560" height="315" src="${item.videoWrapper}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+		  <div class="tags">
+		  	<div class="artist" id="tag">${item.artist}</div>
+		  	<div class="vibe" id="tag">${item.vibe}</div>
+			<div class="glam" id="tag">${item.glam}</div>
+		  </div>
+		  
 		  </div>`
   
 		  $('#items').append(element);

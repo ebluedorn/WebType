@@ -29,6 +29,11 @@ body {
 	font-size: 14px;
 }
 
+.card {
+  font-family: "romie";
+  padding:.5em;
+}
+
 
 header {
 	margin-bottom:1em;
@@ -44,7 +49,7 @@ h1 {
   margin-right:2em;
 }
 
-h2 {
+h2, .title {
 	border: 1px solid #FF03C8;
 	border-radius: 5px;
 	font-family: "romie";
@@ -54,14 +59,12 @@ h2 {
 	margin-bottom: 1em;
 }
 
-.categories {
+.tags {
   display: flex;
-  font-family: "romie";
   padding-top:10px;
 }
 
-
-.categories h3 {
+.categories h3, #tag {
   border-radius:5px;
   background-color: #FFCDF4;
   border: solid 1px #FF03C8;
@@ -69,6 +72,8 @@ h2 {
   margin-right:10px;
   font-size: 14px;
 }
+
+
 
 #filterby {
   margin-bottom:2em;
@@ -103,12 +108,11 @@ footer {
 
 .grid {
   display:grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
+  row-gap:1.5em;
 }
 
-#post1, #post2, #post3 {
-  padding:.5em;
-}
+
 
 
 
