@@ -1,11 +1,12 @@
 // console log test 
 
 
-$(document).ready(function() {
-	var a = 2;
-	console.log(a);
-});
+// $(document).ready(function() {
+// 	var a = 2;
+// 	console.log(a);
+// });
 
+let cards = [];
 $(document).ready(function(){   
 
 
@@ -18,7 +19,7 @@ $(document).ready(function(){
 		for( let i = 0; i<data.length; i++){
 		  let item = data[i];
   // can wrap item.recipe in an a href tag for url
-		  let element = `<div class="card">
+		  let element = `<div class="card" data-artist-filter="${item.artist}" data-vibe-filter="${item.vibe}" data-glam-filter="${item.glam}">
 
 		  <div class="title">${item.title}</div>
 		  <div class="videoWrapper ratio-16-9"><iframe width="560" height="315" src="${item.videoWrapper}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
@@ -31,17 +32,17 @@ $(document).ready(function(){
 		  </div>`
   
 		  $('#items').append(element);
-		  console.log(i, item);
+		//   cards.push(element);
+		//   console.log(i, item);
 		}
+
+		console.log(cards);
+
+		
   
 	  });
-  
-  }); 
-	
 
-
-jQuery(document).ready(function($){
-	
+	  
 	//close popup
 	$('.cd-popup').on('click', function(event){
 		if( $(event.target).is('.cd-popup-close') || $(event.target).is('.cd-popup') ) {
@@ -55,6 +56,45 @@ jQuery(document).ready(function($){
     		$('.cd-popup').removeClass('is-visible');
 	    }
     });
+
+	// original code -- singular tag
+
+
+	// $('#ali-andrea').on('click', function(){
+	// 	$('.card').each(function(){
+	// 		let filter =  $(this).attr('data-artist-filter');
+			
+	// 		if ( filter == 'Ali Andreea'){
+
+	// 		}else{
+	// 			$(this).hide();
+	// 		}
+	// 	});
+	// });
+
+	// updated code that applies to all tags 
+
+	$('select').on('change', function(){
+		let filtertype = $(this).attr('id');
+		console.log(filtertype);
+
+		let selection = $(this).find(":selected").text();
+		console.log(selection);
+		
+		let attribute = 'data-'+filtertype+'-filter';
+
+		$('.card').each(function(){
+
+			let filter =  $(this).attr(attribute);
+			
+			if ( filter == selection){
+				$(this).show();
+			}else{
+				$(this).hide();
+			}
+		});
+
+	});
 });
 
 //open popup
