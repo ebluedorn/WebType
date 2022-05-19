@@ -12,8 +12,8 @@ $(document).ready(function(){
 // can wrap item.recipe in an a href tag for url
         let element = `<div class="card">
         <div class="test">
-        <div class="prep">${item.one}</div>
-        <div class="cook">${item.two}</div>
+        <div class="one">${item.one}</div>
+        <div class="two">${item.two}</div>
         </div>`
 
         $('#items').append(element);
@@ -21,27 +21,6 @@ $(document).ready(function(){
       }
 
     });
-
-
-  // $.getJSON("dishes_withkeys.json")
-  //     .done(function( data ) {
-  //        console.log(data);
-        
-  //       //  .html -- instead of click autopopulates the content. but it doesnt refresh
-  //       // need to find a way so that the data refreshes? although maybe not... just find
-  //       // a way to list the multiple ingredient lists........ 
-
-
-  //       $('.item').click(function(){
-  //           let key = $(this).attr('id');
-  //           console.log(key);
-  //           let info = data[key];
-  //           console.log(info);
-  //           let ingredients = info["ingredients"]; //info.ingredients
-
-  //           $('#ingredients').html(ingredients);
-  //       });
-  //     });
 
 }); 
   
