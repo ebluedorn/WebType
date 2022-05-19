@@ -34,6 +34,28 @@ body {
 	font-size: 14px;
 }
 
+.info {
+  background-color:#FFCDF4;
+  border: solid 1px #FF03C8;
+  font-family: "untitled";
+  margin-left: 5px;
+  padding: 5px 10px;
+  border-radius: 100%;
+}
+
+.explanation {
+  display:none;
+  font-family: "untitled";
+}
+
+.info:hover{
+background-color: #FF03C8;
+}
+
+.info:hover + .explanation {
+  display:inline;
+}
+
 .card {
   font-family: "untitled";
   padding:.5em;
@@ -261,9 +283,13 @@ xpopup
 .cd-popup-container p {
   margin:0px;
   color: black;
-  font-size: 36px;
+  font-size: 32px;
   font-family: "untitled";
-  padding: 3em;
+  padding-left: 3em;
+  padding-right: 3em;
+  padding-top: 3em;
+
+
 }
 
 .cd-popup-container .cd-popup-close {
