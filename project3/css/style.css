@@ -301,13 +301,12 @@ xpopup
 }
 
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 800) {
 
 
   .grid {
-    display:grid;
-    grid-template-columns: repeat(1, 1fr);
-    row-gap:1.5em;
+    display:block;
+
   }
 
 	
