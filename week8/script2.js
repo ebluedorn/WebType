@@ -3,7 +3,7 @@ $(document).ready(function(){
 
   // console logging the data
   let info;
-  $.getJSON("dishes.json")
+  $.getJSON("apitest.json")
     .done(function( data ) {
       console.log(data);
 
@@ -11,12 +11,9 @@ $(document).ready(function(){
         let item = data[i];
 // can wrap item.recipe in an a href tag for url
         let element = `<div class="card">
-        <div class="name">${item.recipe}:</div>
         <div class="test">
-        <div class="prep">Prep Time: ${item.prep} minutes</div>
-        <div class="cook">Cook Time: ${item.cook} minutes</div>
-        </div>
-        <div class="photo"><img src="${item.photo}"></div>
+        <div class="prep">${item.one}</div>
+        <div class="cook">${item.two}</div>
         </div>`
 
         $('#items').append(element);
