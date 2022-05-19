@@ -41,7 +41,7 @@ body {
 
 
 header {
-	margin-bottom:1em;
+	margin-bottom:5%;
 	display:flex;
 	justify-content: space-between;
 	font-size: 96px;
@@ -55,27 +55,27 @@ h1 {
 }
 
 h2, .title {
-	border: 1px solid #FF03C8;
-	border-radius: 5px;
 	font-family: "untitled";
-	font-size: 14px;
-	padding:1em;
+	font-size: 18px;
 	color: #FF03C8;
 	margin-bottom: 1em;
 }
 
 .tags {
-  display: flex;
   padding-top:10px;
+  position:relative;
+  text-align: center;
+  display:flex;
 }
 
 .categories h3, #tag {
-  border-radius:5px;
-  background-color: #FFCDF4;
-  border: solid 1px #FF03C8;
-  padding:5px;
+  border-radius:100%;
+  background-color: #FF03C8;
+  color: white;
+  padding:10px;
   margin-right:10px;
   font-size: 14px;
+  font-weight:bold;
 }
 
 
@@ -101,6 +101,10 @@ h2, .title {
   border: solid 1px #FF03C8;
 }
 
+#filters {
+margin-bottom: 2em;
+}
+
 
 footer {
   color: #FF03C8;
@@ -115,6 +119,7 @@ footer {
   display:grid;
   grid-template-columns: repeat(2, 1fr);
   row-gap:1.5em;
+  column-gap: 1.5em;
 }
 
 select {
