@@ -196,6 +196,15 @@ button {
 	background: black;
 	color: #fd91a3;
 	font-variation-settings: 'SERF' 100;
+	animation: breathe 800ms infinite forwards;
+}
+@keyframes breathe {
+	60% {
+		font-variation-settings: 'SERF' 50;
+	}
+	100% {
+		font-variation-settings: 'SERF' 100;
+	}
 }
 
 .darkmode #reveal {
